@@ -1,6 +1,6 @@
 # Strings...
 
-# You cant modify strings, but can replace letters
+# You cant modify strings, but can replace letters, actually replace CANNOT replace something, that is, the string is an immutable sequence
 
 a = "Hello world" # string type variable
 
@@ -16,3 +16,7 @@ print(b.lower()) # All letters lower
 print(b.title()) # Like capitalize
 
 print(b.upper()) # All letters caps-lock
+
+b.replace("S","o") # Replaced the first S with an o 
+
+print(b)
